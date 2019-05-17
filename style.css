@@ -1,0 +1,29 @@
+.navlocation {
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    font-family: 'Roboto', sans-serif;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+}
+.navhov:hover {
+    color: red;
+    background-color: red;
+}
+
+.profileimage{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.profileimage:hover{
+    border-width: 5px;
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-radius: 10px;
+}
