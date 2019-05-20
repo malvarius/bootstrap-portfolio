@@ -49,6 +49,18 @@ body{
     border-style: solid;
     border-color: white;
 }
+.header{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: #4aaaa5; 
+    
+}
+.row2subrow1{
+    border-bottom-style: solid ;
+    border-bottom-width: 3px;
+    border-bottom-color: #4aaaa5;
+    width: 94%;
+}
 .profpic{
     height: 175px;
     width: 250px;
