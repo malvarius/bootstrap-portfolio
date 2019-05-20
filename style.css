@@ -1,29 +1,71 @@
-.navlocation {
-    position: absolute;
-    top: 15%;
-    right: 15%;
-    font-family: 'Roboto', sans-serif;
+body{
+
+    background-image: url('./memphis-mini-dark.png');
+}
+
+
+
+.spacer{
+    height: 120px;
+    background-color: white;
+}
+
+.navigation{
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #4aaaa5;
+    background-color: white;
+}
+.navback{
+
+    background-color: #4aaaa5;
+    border-radius: 10px;
+    border-color:#4aaaa5;
     border-width: 3px;
     border-style: solid;
+    text-align: center;
+    height: 50%;
+    padding: 1px;
+}
+.nametag { 
+    background-color: #4aaaa5;
     border-radius: 10px;
+    border-color:#4aaaa5;
+    border-width: 3px;
+    border-style: solid;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 36px;
+    height: 50%;
+}
+.nametagtext{
+    margin: 5%;
+}
+.midsect{
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    border-style: solid;
     border-color: white;
 }
-.navhov:hover {
-    color: red;
-    background-color: red;
-}
-
-.profileimage{
-    height: 300px;
-    width: 300px;
-    position: absolute;
-    top: 25%;
-    left: 25%;
-}
-
-.profileimage:hover{
+.profpic{
+    height: 175px;
+    width: 250px;
+    border-color: white;
     border-width: 5px;
     border-style: solid;
-    border-color: #4aaaa5;
     border-radius: 10px;
+}
+.narrative{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 24px;
+    color: #4aaaa5;
+}
+.foots{
+    background-color: rgb(41, 39, 39);
+    color: aliceblue;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+    border-top-width: 10px;
 }
