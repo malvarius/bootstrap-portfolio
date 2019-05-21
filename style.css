@@ -26,6 +26,36 @@ body{
     text-align: center;
     height: 50%;
     padding: 1px;
+} 
+.x1:hover{
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+}
+.x2:hover{
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+}
+.x3:hover{
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+}
+.x1:active{
+    border-bottom-color: yellow;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+}
+.x2:active{
+    border-bottom-color: yellow;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+}
+.x3:active{
+    border-bottom-color: yellow;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
 }
 .nametag { 
     background-color: #4aaaa5;
@@ -68,6 +98,12 @@ body{
     border-width: 5px;
     border-style: solid;
     border-radius: 10px;
+}
+.profpic:hover{
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
 }
 .narrative{
     font-family: 'Roboto' , sans-serif;
