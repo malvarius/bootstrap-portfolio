@@ -74,6 +74,13 @@ body{
     font-size: 24px;
     color: #4aaaa5;
 }
+
+.inputter{
+    font-family: 'Roboto',sans-serif;
+    font-size: 24px;
+    color: #4aaaa5;
+}
+
 .foots{
     background-color: rgb(41, 39, 39);
     color: aliceblue;
