@@ -1,6 +1,8 @@
 body{
 
     background-image: url('./memphis-mini-dark.png');
+    height:100%;
+    min-height: 100%;
 }
 html, body {
     height:100%;
