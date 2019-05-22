@@ -13,31 +13,26 @@
 </head>
 
 <body>
-  <div class="container-fluid">
-    <div class="row rows1 navigation mt-0 pt-5">
-      </span>
-      <div class="col-md-2 offset-3 nametag mt-4">
-        <p class="nametagtext">Eric Malvar</p>
-      </div>
-      <div class="col-md-2 offset-2 navback mt-5">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-#4aaa5 center-text">
-          <a class="navbar-brand x1" href="index.html">About Me</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand x2" href="contact.html">Contact</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button><a class="navbar-brand x3" href="portfolio.html">Portfolio</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </nav>
-      </div>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-#4aaa5">
+        <a class="navbar-brand" href="#">Eric Malvar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto mr-5">
+            <li class="nav-item active x1">
+              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ml-auto mr-2">
+              <a class="nav-link x2" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item ml-auto mr-2">
+              <a class="nav-link x3" href="portfolio.html">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  <div class="container-fluid flex-fill">
     <div class="row rows2">
       <div class="col-md-6 mt-5 offset-3 midsect">
         <div class="row row2subrow1 ml-4">
@@ -46,22 +41,13 @@
           </div>
         </div>
         <div class="row row2subrow2">
-          <div class="col-md-4">
             <img class="profpic mt-4 ml-4 float-left img-fluid"
               src="https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/11109038_648408578594282_1572279194008942065_o.jpg?_nc_cat=101&_nc_oc=AQlBYA9OmuVfxUV72_p6Ybf6VE6FpjrjW-fB7uiDhIPzizfpmOw94vM1dYeJI_dw2hhXuWzZ8xd1296LPnFDKI0X&_nc_ht=scontent-sjc3-1.xx&oh=0292628b0625c1ad8b31597112556763&oe=5D9DF3A3"
               alt="...">
-          </div>
-          <div class="col-md-8">
             <p class="float-left narrative text-wrap">Hello, My name is Eric Malvar and I am an aspiring
               software developer. I am a hard working individual with a true passion for learning! I am an
               avid gamer and reader and enjoy using my creative skills to make content. One day I hope to
               work in the field of web or software development, or in the gaming industry!
-            </p>
-          </div>
-        </div>
-        <div class="row  row2subrow3 mt-0 pt-0">
-          <div class="col-md-12 float-center ml-3 pr-2">
-            <p class="float-left narrative">
               I am taking this class to learn all of the awesome skills to create an awesome web page!
               I hope to learn a lot about interactive graphic displays and logic based programming.
               Coming from a background in robotics and applications engineering I discovered my passion for
@@ -69,14 +55,18 @@
               on our software and used JIRA to implement their requests to actual changes via our developer team.
             </p>
           </div>
+          </div>
         </div>
 
       </div>
     </div>
   </div>
-  <div class="card-header fixed-bottom text-center foots">
-    Copyright©
-  </div>
+  <nav class="navbar fixed-bottom navbar-dark bg-dark text-center d-flex foots">
+      <a class="navbar-brand m-auto" href="#">Copyright©</a>
+      
+    </nav>
+    
+  
 </body>
 
 </html>

@@ -5,11 +5,6 @@ body{
 
 
 
-.spacer{
-    height: 120px;
-    background-color: white;
-}
-
 .navigation{
     border-bottom-width: 5px;
     border-bottom-style: solid;
@@ -24,7 +19,6 @@ body{
     border-width: 3px;
     border-style: solid;
     text-align: center;
-    height: 50%;
     padding: 1px;
 } 
 .x1:hover{
@@ -67,13 +61,11 @@ body{
     color: aliceblue;
     font-family: 'Roboto' , sans-serif;
     font-size: 36px;
-    height: 50%;
 }
 .nametagtext{
     margin: 5%;
 }
 .midsect{
-    height: 600px;
     background-color: white;
     border-radius: 10px;
     border-style: solid;
@@ -123,4 +115,5 @@ body{
     border-top-color: #4aaaa5;
     border-top-style: solid;
     border-top-width: 10px;
+    text-align: center;
 }
