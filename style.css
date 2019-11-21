@@ -97,12 +97,6 @@ html, body {
     border-style: solid;
     border-radius: 10px;
 }
-.profpic:hover{
-    border-color: black;
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 5px;
-}
 .narrative{
     font-family: 'Roboto' , sans-serif;
     font-size: 24px;
@@ -122,4 +116,11 @@ html, body {
     border-top-style: solid;
     border-top-width: 10px;
     text-align: center;
+}
+.linkMeText {
+    color: black;
+    font-family: 'Roboto',sans-serif;
+}
+.linkMe {
+    color: black;
 }
